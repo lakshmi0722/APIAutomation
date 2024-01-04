@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel= "false" >
+  <test name="Test">
+    <classes>
+      <class name="com.rest.UpdateTest"/>
+      <class name="com.rest.DeleteTest"/>
+      <class name="com.rest.AssertTest"/>
+      <class name="com.rest.AllUsersTest"/>
+      <class name="com.rest.CountryTest"/>
+      <class name="com.rest.CreateUser"/>
+      <class name="com.rest.ListResource"/>
+      <class name="com.rest.ReigesterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

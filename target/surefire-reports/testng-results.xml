@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6824" started-at="2024-01-03T02:13:19Z" finished-at="2024-01-03T02:13:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6824" started-at="2024-01-03T02:13:19Z" finished-at="2024-01-03T02:13:26Z">
+      <class name="com.rest.CreateUser">
+        <test-method status="PASS" signature="newUser()[pri:0, instance:com.rest.CreateUser@67b6d4ae]" name="newUser" duration-ms="568" started-at="2024-01-03T02:13:25Z" finished-at="2024-01-03T02:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+      </class> <!-- com.rest.CreateUser -->
+      <class name="com.rest.ReigesterTest">
+        <test-method status="PASS" signature="register()[pri:0, instance:com.rest.ReigesterTest@366e2eef]" name="register" duration-ms="533" started-at="2024-01-03T02:13:26Z" finished-at="2024-01-03T02:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- com.rest.ReigesterTest -->
+      <class name="com.rest.AllUsersTest">
+        <test-method status="PASS" signature="singleUser()[pri:0, instance:com.rest.AllUsersTest@617c74e5]" name="singleUser" duration-ms="1203" started-at="2024-01-03T02:13:23Z" finished-at="2024-01-03T02:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleUser -->
+        <test-method status="PASS" signature="users()[pri:0, instance:com.rest.AllUsersTest@617c74e5]" name="users" duration-ms="291" started-at="2024-01-03T02:13:24Z" finished-at="2024-01-03T02:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+      </class> <!-- com.rest.AllUsersTest -->
+      <class name="com.rest.CountryTest">
+        <test-method status="PASS" signature="country()[pri:0, instance:com.rest.CountryTest@6537cf78]" name="country" duration-ms="767" started-at="2024-01-03T02:13:24Z" finished-at="2024-01-03T02:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- country -->
+      </class> <!-- com.rest.CountryTest -->
+      <class name="com.rest.ListResource">
+        <test-method status="PASS" signature="listResource()[pri:0, instance:com.rest.ListResource@34b7bfc0]" name="listResource" duration-ms="207" started-at="2024-01-03T02:13:25Z" finished-at="2024-01-03T02:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listResource -->
+      </class> <!-- com.rest.ListResource -->
+      <class name="com.rest.DeleteTest">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:com.rest.DeleteTest@3a03464]" name="deleteTest" duration-ms="518" started-at="2024-01-03T02:13:22Z" finished-at="2024-01-03T02:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- com.rest.DeleteTest -->
+      <class name="com.rest.UpdateTest">
+        <test-method status="PASS" signature="userTest()[pri:0, instance:com.rest.UpdateTest@4909b8da]" name="userTest" duration-ms="2209" started-at="2024-01-03T02:13:19Z" finished-at="2024-01-03T02:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTest -->
+      </class> <!-- com.rest.UpdateTest -->
+      <class name="com.rest.AssertTest">
+        <test-method status="PASS" signature="assertTest()[pri:0, instance:com.rest.AssertTest@2d3fcdbd]" name="assertTest" duration-ms="509" started-at="2024-01-03T02:13:22Z" finished-at="2024-01-03T02:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTest -->
+      </class> <!-- com.rest.AssertTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
